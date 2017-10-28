@@ -4,7 +4,7 @@ A list of some useful commands for Heroku.
 ## Create heroku app: 
 - `heroku create --stack cedar`
 
-## Set heroku grails buildpack: 
+## Set heroku buildpack for grails app: 
 - `heroku buildpacks:set https://github.com/heroku/heroku-buildpack-grails`
 
 ## Rename heroku app:
