@@ -1,6 +1,12 @@
 # herokuUsefulCommands
 A list of some useful commands for Heroku.
 
+## Download heroku client (MacOs): 
+- `brew install heroku/brew/heroku`
+
+## Login to heroku client: 
+- `heroku login`
+
 ## Create heroku app: 
 - `heroku create --stack cedar`
 
