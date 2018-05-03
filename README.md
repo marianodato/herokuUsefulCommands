@@ -30,7 +30,7 @@ A list of some useful commands for Heroku.
 
 ## Configure MySql DB connection with Heroku (in git repository directory): 
 -  `heroku config -s | grep JAWSDB_URL >> .env`
--  `$ more .env`
+-  `more .env`
 -  Add `.env` file to `.gitignore`
 -  Add DB connection string in your app: 
 -    `dbCreate = "update"`
