@@ -7,6 +7,9 @@ A list of some useful commands for Heroku.
 ## Login to heroku client: 
 - `heroku login`
 
+## Create heroku app, name it and set heroku buildpack for grails app (in git repository directory):
+- `heroku create identifyme-backend-api --buildpack https://github.com/heroku/heroku-buildpack-grails`
+
 ## Create heroku app (in git repository directory): 
 - `heroku create --stack cedar`
 
